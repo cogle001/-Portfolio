@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----------------------START EDITING HERE-------   */
+
+body {
+	background-color: pink;
+	font-size: 16px:
+}
+
+h1, p {
+	color: #ffffff;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.5);
+}
+
+@font-face{
+	font-family: 'abril';
+	src: url('fonts/AbrilFatface-Regular.ttf');
+}
+h1{ 
+    font-family: Abril, Lato, Stanley;
+	font-size: 24px; 
+	float: right;
+	width: 50%;
+}
+
+h2{
+	font-family: Lato;
+	font-size: 150x;
+    text-shadow: 1px 1px 0px #000000;
+	text-align: center;
+	margin: 0px auto;
+}
+
+h3{
+	font-family: Stanley;
+	font-size: 150%;
+}
+
+h4{
+	font-family: Abril;
+	font-size: 150%;
+}
+
+h5{
+	font-family: Lato;
+	font-size: 150x;
+}
+
+h6{
+	font-family: Stanley;
+	font-size: 150%;
+} 
+
+p{
+	font-size: 100%
+}
+/* ERROR header style is not matching site design style - type not loading, navigation not correct style*/
+header{
+	   font-family: Abril;
+	   background-color: light purple;
+	   padding: 10px;
+	   width: 100%;
+	   overflow: auto;
+	   height: 120px;
+}
+
+nav{
+	width:50%;
+	float: left;
+}
+	   
+
+ul li{
+	   display: inline-block;
+	   background-color: purple;
+	   padding: 10px;
+	   margin: 10p%;
+} 
+
+.center{
+	  text-align: center;
+	  margin: 0px auto;
+}
+
+img. imgsm{
+   width:30%;
+   height: auto;
+}   
+ul li a{
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 100%; 
+	color: white;
+	text-decoration: none;
+}
+
+
+
+tr{
+   border: 1px solid white;
+}
+
+th{
+	border: 1px solid white;
+	padding: 10px;
+	font-family: latto;
+	font-weight: 700;
+	font-size: 130%;
+}
+
+ul{
+list-style-image: url("images/star.png"):}
+
+li{
+margin:10px 0px 0px 0px:}
+
+img small{
+	width=600%;
+	height=400%;
+}
+/*ERRORS  not selecting the class value correctly should be img.small{...} no = sign should be :*/
+footer{
+	width: 100%;
+	height: 100px;
+	padding: 20px 0px;
+	background-color: black;
+}
+/*ERROR table and form style not matching site design strategy */
+
